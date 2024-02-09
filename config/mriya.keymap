@@ -18,17 +18,6 @@
 &mt { quick_tap_ms = <200>; };
 
 / {
-    behaviors {
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-mod-morph";
-            label = "NEW_BEHAVIOR";
-            bindings = <&kp EQUAL>, <&kp N9>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
